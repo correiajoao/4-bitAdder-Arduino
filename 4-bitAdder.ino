@@ -28,7 +28,6 @@ int _xor(int bitOne, int bitTwo){
   return bitOne ^ bitTwo;
 } 
 
-
 void setup() {
    digitalWrite(bit1, HIGH);
    pinMode(bit1, INPUT);
@@ -54,7 +53,6 @@ void setup() {
    pinMode(A3, OUTPUT);
    pinMode(A4, OUTPUT); 
 }
-
 
 void loop() {
   int firstNumber[3];
